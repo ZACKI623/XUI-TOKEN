@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XUI Token - Blum Exchange</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение стилей -->
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт токена XUI</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О токене</a></li>
+                <li><a href="#chart">График</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>О токене XUI</h2>
+        <!-- Впишите описание токена ниже -->
+        <p>XUI — это инновационный криптотокен, торгуемый на бирже Blum. Токен предназначен для...</p>
+    </section>
+
+    <section id="chart">
+        <h2>График цены XUI</h2>
+        <!-- График будет отображаться здесь -->
+        <canvas id="priceChart"></canvas>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <!-- Впишите контактную информацию ниже -->
+        <p>Свяжитесь с нами: <a href="mailto:info@xui-token.com">info@xui-token.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 XUI Token. Все права защищены.</p>
+    </footer>
+
+    <!-- Подключение библиотеки Chart.js для графиков -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Подключение основного скрипта -->
+    <script src="script.js"></script>
+</body>
+</html>
+
